@@ -1,0 +1,47 @@
+class Constants:
+    # tiles
+    TILE_SIZE = 64
+    ROWS = 15
+    COLS = 30
+
+    # screen size
+    WIDTH = TILE_SIZE * COLS 
+    HEIGHT = TILE_SIZE * ROWS 
+    TITLE = 'Flag Hunter'
+
+    # buttons
+    START_BUTTON_POS = (WIDTH/2 - 2 * TILE_SIZE, HEIGHT/2)
+    SOUND_BUTTON_POS = (WIDTH/2, HEIGHT/2)
+    QUIT_BUTTON_POS = (WIDTH/2 + 2 * TILE_SIZE, HEIGHT/2)
+
+    # phisics
+    GRAVITY = 0.5
+    Y_SPEED_START = 0
+    X_SPEED_START = 0
+    JUMP_FORCE = -15
+    X_SPEED = 5
+
+    # character animation
+    HERO_IDLE_SPEED = 0.1
+    HERO_WALK_SPEED = 0.1
+    HERO_START_POSITION = TILE_SIZE, HEIGHT / 2
+
+    TREE_ATTACK_SPEED = 0.2
+
+    BEE_WALK_SPEED = 5
+    BEE_WALK_ANIMATION_SPEED = 0.1
+    BEE_ANIMATION_SPEED = 0.1
+
+    RED_HEAD_WALK_SPEED = 5
+    RED_HEAD_WALK_ANIMATION_SPEED = 0.1
+    RED_HEAD_ANIMATION_SPEED = 0.1
+    RED_HEAD_TILES_MAX = 26 * TILE_SIZE
+    RED_HEAD_TILES_MIN = 18 * TILE_SIZE
+
+    # hero lives
+    HERO_LIVES = 3
+
+    # flag
+    GOAL_FLAG_ANIMATION_SPEED = 0.1
+    GOAL_FLAG_POSITION = (2 * TILE_SIZE, 5 * TILE_SIZE)
+
